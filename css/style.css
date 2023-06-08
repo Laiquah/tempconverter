@@ -13,12 +13,13 @@ body {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  background-color: #E4A5FF;
 }
 
 .container {
-  width: 100vw;
-  height: 100vh;
+  width: fit-content;
+  height: fit-content;
+  padding: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -26,14 +27,15 @@ body {
 
 .mini-heading {
   width: 100%;
-  color: white;
+  color: black;
   height: 100%;
 }
 
 .converter-space {
-  width: 50%;
-  height: 85%;
-  border: 2px solid black;
+  width: fit-content;
+  height: fit-content;
+  border: 4px solid black;
+  padding: 2rem;
 }
 
 .top-section {
@@ -49,8 +51,7 @@ body {
 }
 
 .top-section {
-  /* border:2px solid white; */
-  height: 6rem;
+  height: rem;
 }
 
 .themometer {
@@ -60,8 +61,7 @@ body {
 }
 
 .main-section {
-  /* border:2px solid white; */
-  height: 100%;
+  height: fit-content;
 }
 
 [type="checkbox"]:checked #choose {
@@ -81,7 +81,7 @@ body {
 
 span {
   position: relative;
-  color: white;
+  color: black;
 }
 
 span:nth-child(2) {
@@ -114,7 +114,7 @@ h2 {
   margin: 0;
   height: 3rem;
   border-radius: 2rem;
-  border: 0.2rem solid rgb(19, 9, 77);
+  border: 0.2rem solid #f77ba8;
 }
 
 #clear {
@@ -127,8 +127,8 @@ h2 {
   cursor: pointer;
   font-weight: bold;
   margin-top: 2rem;
-  background-color: #24243e;
-  border: 0.2rem solid rgb(19, 9, 77);
+  background-color: #FFAAC9;
+  border: 0.2rem solid #f77ba8;
 }
 
 #calculate {
@@ -141,8 +141,8 @@ h2 {
   cursor: pointer;
   font-weight: bold;
   margin-top: 2rem;
-  background-color: #24243e;
-  border: 0.2rem solid rgb(19, 9, 77);
+  background-color: #FFAAC9;
+  border: 0.2rem solid #f77ba8;
 }
 
 #myAnswer {
@@ -150,7 +150,7 @@ h2 {
     bottom:-3.5rem;
     right:-9rem !important; */
   /* margin-top:4rem; */
-  color: rgb(25, 255, 25);
+  color: rgb(0, 0, 0);
   /* right:-6.7rem; */
   font-weight: 700;
   font-size: 2rem;
