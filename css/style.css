@@ -34,7 +34,6 @@ body {
 .converter-space {
   width: fit-content;
   height: fit-content;
-  align-items: center;
   border: 4px solid black;
   padding: 2rem;
 }
